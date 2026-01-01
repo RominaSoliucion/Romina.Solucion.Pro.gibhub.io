@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Romina | Automatización Integral para Empresas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Automatización integral para emprendedores, negocios y corporaciones que pierden leads por demoras en la atención." />
+
+  <style>
+    :root {
+      --primary: #5b5bff;
+      --primary-dark: #3f3fdc;
+      --text: #0f172a;
+      --muted: #64748b;
+      --bg: #f8fafc;
+      --white: #ffffff;
+      --radius: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Arial, sans-serif;
+      background: linear-gradient(180deg, #f3f2ff 0%, #ffffff 100%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(255,255,255,0.94);
+      backdrop-filter: blur(12px);
+      padding: 18px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    nav strong {
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    nav a {
+      margin-left: 26px;
+      text-decoration: none;
+      color: var(--text);
+      font-weight: 500;
+    }
+
+    .btn-nav {
+      background: var(--primary);
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 14px;
+    }
+
+    header {
+      padding: 180px 8% 140px;
+      max-width: 1200px;
+      animation: fadeUp 1s ease;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #eae8ff;
+      color: var(--primary);
+      padding: 6px 18px;
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 26px;
+    }
+
+    h1 {
+      font-size: 50px;
+      max-width: 980px;
+      margin-bottom: 28px;
+      line-height: 1.12;
+    }
+
+    h1 span {
+      color: var(--primary);
+    }
+
+    header p {
+      font-size: 19px;
+      color: var(--muted);
+      max-width: 900px;
+    }
+
+    .cta {
+      margin-top: 46px;
+    }
+
+    .cta a {
+      display: inline-block;
+      margin-right: 18px;
+      padding: 18px 34px;
+      border-radius: var(--radius);
+      text-decoration: none;
+      font-weight: 700;
+      transition: 0.3s;
+    }
+
+    .primary {
+      background: var(--primary);
+      color: #fff;
+      box-shadow: 0 20px 45px rgba(91,91,255,0.4);
+    }
+
+    .primary:hover {
+      background: var(--primary-dark);
+      transform: translateY(-3px);
+    }
+
+    .secondary {
+      border: 2px solid var(--primary);
+      color: var(--primary);
+    }
+
+    section {
+      padding: 120px 8%;
+      max-width: 1200px;
+    }
+
+    h2 {
+      font-size: 40px;
+      margin-bottom: 18px;
+    }
+
+    section > p {
+      font-size: 18px;
+      color: var(--muted);
+      max-width: 820px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 34px;
+      margin-top: 60px;
+    }
+
+    .card {
+      background: var(--white);
+      padding: 40px;
+      border-radius: var(--radius);
+      box-shadow: 0 25px 50px rgba(0,0,0,0.06);
+      transition: 0.35s;
+      animation: fadeUp 0.8s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+    }
+
+    .card h3 {
+      font-size: 21px;
+      margin-bottom: 14px;
+    }
+
+    .authority {
+      background: var(--bg);
+      border-radius: 30px;
+      padding: 70px;
+      text-align: center;
+    }
+
+    .authority p {
+      font-size: 21px;
+      max-width: 950px;
+      margin: auto;
+    }
+
+    footer {
+      text-align: center;
+      padding: 80px 8%;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(24px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 768px) {
+      h1 { font-size: 34px; }
+      nav a { display: none; }
+    }
+  </style>
+</head>
+
+<body>
+
+<nav>
+  <strong>Romina</strong>
+  <div>
+    <a href="#solucion">Solución</a>
+    <a href="#proceso">Proceso</a>
+    <a href="#contacto" class="btn-nav">Cotización</a>
+  </div>
+</nav>
+
+<header>
+  <span class="badge">Automatización integral para no perder más oportunidades</span>
+
+  <h1>
+    Si tu empresa <span>responde tarde</span>,
+    estás perdiendo leads, ventas y dinero.
+  </h1>
+
+  <p>
+    Implemento <strong>automatización integral completa</strong> para emprendedores,
+    grandes negocios y corporaciones que hoy
+    <strong>pierden ventas todos los días</strong> por no responder a tiempo.
+    Cada consulta se atiende automáticamente, 24/7.
+  </p>
+
+  <div class="cta">
+    <a href="https://wa.link/hkwuxg" class="primary" target="_blank">
+      Pedí cotización y recibí un PDF personalizado con la solución y costos
+    </a>
+    <a href="#solucion" class="secondary">Ver la solución</a>
+  </div>
+</header>
+
+<section class="authority">
+  <p>
+    Diseño <strong>sistemas de automatización completos</strong>, no parches.
+    Todo integrado para que ningún lead quede sin respuesta
+    y el negocio funcione incluso cuando nadie está conectado.
+  </p>
+</section>
+
+<section id="sobre-mi">
+  <h2>Sobre mí</h2>
+  <p>
+    Soy <strong>Romina</strong>. Trabajo directamente con cada negocio
+    para diseñar sistemas de automatización a medida
+    que eliminan pérdidas de leads, ordenan la comunicación
+    y permiten vender sin depender de respuestas manuales.
+  </p>
+  <p style="margin-top:16px;">
+    No utilizo soluciones genéricas.
+    Cada sistema se diseña según el volumen real de consultas,
+    los canales que usás y el objetivo comercial de tu empresa.
+  </p>
+</section>
+
+<section id="tecnologia">
+  <h2>Tecnología que trabaja en segundo plano</h2>
+  <p>
+    Utilizo automatización avanzada e inteligencia artificial
+    para que tu negocio funcione de forma ordenada y eficiente,
+    incluso cuando nadie está conectado.
+  </p>
+
+  <div class="grid">
+    <div class="card"><h3>Respuestas automáticas inteligentes</h3><p>Atención inmediata y profesional.</p></div>
+    <div class="card"><h3>Integración total</h3><p>Web, WhatsApp y email conectados.</p></div>
+    <div class="card"><h3>Flujos personalizados</h3><p>Diseñados según tu proceso comercial.</p></div>
+    <div class="card"><h3>Sistemas escalables</h3><p>Preparados para crecer sin fricción.</p></div>
+  </div>
+</section>
+
+<section id="solucion">
+  <h2>Una sola solución: Automatización Integral</h2>
+  <p>Todo conectado. Todo automático. Ningún lead sin respuesta.</p>
+</section>
+
+<section id="proceso">
+  <h2>Cómo trabajo</h2>
+  <div class="grid">
+    <div class="card"><h3>1. Auditoría</h3><p>Detectamos pérdidas de leads.</p></div>
+    <div class="card"><h3>2. Diseño</h3><p>Arquitectura del sistema.</p></div>
+    <div class="card"><h3>3. Implementación</h3><p>Todo funcionando y probado.</p></div>
+  </div>
+</section>
+
+<section id="contacto">
+  <h2>Cotización personalizada</h2>
+  <p>
+    Analizamos tu caso y te entregamos un
+    <strong>PDF personalizado</strong> con diagnóstico,
+    solución recomendada y costos reales.
+  </p>
+  <div class="cta">
+    <a href="https://wa.link/hkwuxg" class="primary" target="_blank">
+      Solicitar cotización por WhatsApp
+    </a>
+  </div>
+</section>
+
+<footer>
+  © 2025 Romina · Automatización Integral · Sistemas Web · IA
+</footer>
+
+</body>
+</html>
